@@ -1,0 +1,17 @@
+{
+  "name": "slashi_tma_demo",
+  "version": "1.0.0",
+  "description": "fork from slashi_tma_demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
