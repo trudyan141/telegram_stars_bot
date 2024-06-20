@@ -2,8 +2,9 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const token = '7267860189:AAGvu7OOF1IEh6ytMfD5uK5o4fQqORGgw_E';
-const bot = new TelegramBot(token, { polling: true });
+//const token = '7267860189:AAGvu7OOF1IEh6ytMfD5uK5o4fQqORGgw_E';
+const token = '5000039542:AAFVR2Ae6d-hCP-pFAwRoc3CJ1ICPSSzC_A';
+const bot = new TelegramBot(token, { polling: true, testEnvironment: true });
 
 const app = express();
 app.use(bodyParser.json());
